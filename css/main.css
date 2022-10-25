@@ -1,1 +1,5 @@
 /* Place CSS styles here */
+body {
+    font-family: 'Xanh Mono', monospace;
+    background-color: antiquewhite;
+}
