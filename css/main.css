@@ -1,13 +1,36 @@
 /* Place CSS styles here */
 body {
     background-color: antiquewhite;
+    height: 100vh;
+}
+
+.song-title {
+    font-size: 50px;
 }
 
 .title-wrapper {
     font-family: 'Bebas Neue', cursive;
     display: flex;
-    height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+}
+
+.lyrics-wrapper {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.top-lyrics {
+    width: 50%;
+}
+
+.middle-lyrics {
+    width: 50%;
+}
+
+.bottom-lyrics {
+    width: 50%;
 }
