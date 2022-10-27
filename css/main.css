@@ -1,5 +1,13 @@
 /* Place CSS styles here */
 body {
-    font-family: 'Xanh Mono', monospace;
     background-color: antiquewhite;
+}
+
+.title-wrapper {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
