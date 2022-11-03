@@ -4,16 +4,22 @@ body {
     height: 100vh;
 }
 
+img, video, picture {
+    max-width: 100%;
+}
+
 .song-title {
     font-size: 50px;
+    margin: 3px;
+}
+
+.artist-title {
+    margin: 3px;
 }
 
 .title-wrapper {
     font-family: 'Bebas Neue', cursive;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    text-align: center;
 }
 
 .lyrics-wrapper {
@@ -21,16 +27,24 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-lyrics {
     width: 50%;
+    background-color: rgb(238, 251, 252);
+    padding: 10px;
 }
 
 .middle-lyrics {
     width: 50%;
+    background-color: rgb(240, 247, 248);
+    padding: 10px;
 }
 
 .bottom-lyrics {
     width: 50%;
+    background-color: rgb(238, 251, 252);
+    padding: 10px;
 }
