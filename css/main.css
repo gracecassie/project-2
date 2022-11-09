@@ -1,6 +1,6 @@
 /* Place CSS styles here */
 body {
-    background-color: antiquewhite;
+    background-color: rgb(231, 248, 184);
     height: 100vh;
 }
 
@@ -11,6 +11,10 @@ img, video, picture {
 .song-title {
     font-size: 50px;
     margin: 3px;
+}
+
+.bye {
+    font-size: 30px;
 }
 
 .artist-title {
@@ -28,23 +32,37 @@ img, video, picture {
     margin-right: 20px;
     padding-bottom: 20px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-content: column;
 }
 
 .top-lyrics {
-    width: 50%;
-    background-color: rgb(238, 251, 252);
+    background-color: rgb(250, 249, 210);
     padding: 10px;
+    width: 100%;
+}
+
+.first-gif {
+    width: 90%;
 }
 
 .middle-lyrics {
-    width: 50%;
-    background-color: rgb(240, 247, 248);
+    background-color: rgb(250, 249, 210);
     padding: 10px;
+    width: 100%;
 }
 
 .bottom-lyrics {
-    width: 50%;
-    background-color: rgb(238, 251, 252);
+    background-color: rgb(250, 249, 210);
     padding: 10px;
+    width: 100%;
+}
+
+.first-sentence {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.middle-gif {
+    max-width: 100%;
 }
