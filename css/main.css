@@ -8,10 +8,81 @@ img, video, picture {
     max-width: 100%;
 }
 
-.song-title {
-    font-size: 50px;
-    margin: 3px;
+hr {
+    border: 5px solid rgb(108, 150, 108);
 }
+
+
+.song-title {
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    color:#313131;
+    font-size:45px;
+    font-weight: bold;
+    position: absolute;
+    -webkit-animation:colorchange 20s 
+
+infinite alternate;
+      
+      
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
 
 .bye {
     font-size: 30px;
@@ -23,13 +94,16 @@ img, video, picture {
 
 .title-wrapper {
     font-family: 'Bebas Neue', cursive;
-    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .lyrics-wrapper {
     font-family: 'Montserrat', sans-serif;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 1px;
     padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
@@ -37,8 +111,9 @@ img, video, picture {
 }
 
 .top-lyrics {
-    background-color: rgb(250, 249, 210);
+    background-color: rgb(250, 234, 214);
     padding: 10px;
+    margin: 5px;
     width: 100%;
 }
 
@@ -47,19 +122,22 @@ img, video, picture {
 }
 
 .middle-lyrics {
-    background-color: rgb(250, 249, 210);
+    background-color: rgb(248, 215, 172);
     padding: 10px;
+    margin: 5px;
     width: 100%;
 }
 
 .bottom-lyrics {
-    background-color: rgb(250, 249, 210);
+    background-color: rgb(252, 212, 159);
     padding: 10px;
+    margin-left: 5px;
     width: 100%;
 }
 
 .first-sentence {
     font-size: 20px;
+    font-weight: bold;
     text-transform: capitalize;
 }
 
